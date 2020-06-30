@@ -1,0 +1,53 @@
+{
+  "name": "webpack-piskel",
+  "version": "1.0.0",
+  "description": "webpack-for-piskel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/pavlenstory-RS2019Q3.git"
+  },
+  "keywords": [
+    "js",
+    "webpack"
+  ],
+  "author": "Pavel Andreikovets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/pavlenstory-RS2019Q3/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/pavlenstory-RS2019Q3#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.1",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^5.0.2",
+    "gif.js.optimized": "^1.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-inline-svg-plugin": "^1.2.4",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "raw-loader": "^4.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "firebase": "^7.15.5"
+  }
+}

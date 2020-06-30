@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PIXEL</title>
+
+</head>
+<body>
+    <div class="sizeCanvas">
+        <button class="googleSign sizeOption">Google+</button>
+    </div>
+
+
+    <div class="toolbox left">
+
+        <div class="group commands">
+            <div class="item" data-command="undo" title="Undo">
+                <img src="../icon/back.svg">
+            </div>
+            <div class="item" data-command="download" title="Download">
+                <img src="../icon/download.svg">
+            </div>
+        </div>
+
+        <div class="group shapes">
+            <div id="line" class="item active" data-tool="line" title="Line Tool">
+                <img src="../icon/line.ico">
+            </div>
+            <div id="rectangle" class="item" data-tool="rectangle" title="Rectangle Tool">
+                <img src="../icon/rectangle.svg">
+            </div>
+            <div id="circle" class="item" data-tool="circle" title="Circle Tool">
+                <img src="../icon/circle.svg">
+            </div>
+            <div id="triangle" class="item" data-tool="triangle" title="Triangle Tool">
+                <img src="../icon/triangle.svg">
+            </div>
+        </div>
+
+        <div class="group tools">
+            <div id="pencil" class="item" data-tool="pencil" title="Pencil Tool">
+                <img src="../icon/pencil.svg">
+            </div>
+            <div id="brush" class="item" data-tool="brush" title="Brush Tool">
+                <img src="../icon/brush.svg">
+            </div>
+            <div id="paint-bucket" class="item" data-tool="paint-bucket" title="Paint bucket Tool">
+                <img src="../icon/bucket.ico">
+            </div>
+            <div id="eraser" class="item" data-tool="eraser" title="Eraser Tool">
+                <img src="../icon/eraser.svg">
+            </div>
+        </div>
+
+        <div class="group lineWidths forShapes" style="display: block;">
+            <div class="item active" data-line-width="1" title="1 Pixel">
+                <div class="lineWidthsIN" style="width:1px;height:1px"></div>
+            </div>
+            <div class="item" data-line-width="2" title="2 Pixel">
+                <div class="lineWidthsIN" style="width:2px;height:2px"></div>
+            </div>
+            <div class="item" data-line-width="3" title="3 Pixel">
+                <div class="lineWidthsIN" style="width:3px;height:3px"></div>
+            </div>
+            <div class="item" data-line-width="4" title="4 Pixel">
+                <div class="lineWidthsIN" style="width:4px;height:4px"></div>
+            </div>
+            <div class="item" data-line-width="5" title="5 Pixel">
+                <div class="lineWidthsIN" style="width:5px;height:5px"></div>
+            </div>
+        </div>
+
+        <div class="group lineWidths forBrush" style="display: none;">
+            <div class="item active" data-brush-size="6" title="6 Pixel">
+                <div class="lineWidthsIN" style="width:6px;height:6px"></div>
+            </div>
+            <div class="item" data-brush-size="8" title="8 Pixel">
+                <div class="lineWidthsIN" style="width:8px;height:8px"></div>
+            </div>
+            <div class="item" data-brush-size="3" title="3 Pixel">
+                <div class="lineWidthsIN" style="width:10px;height:10px"></div>
+            </div>
+            <div class="item" data-brush-size="4" title="4 Pixel">
+                <div class="lineWidthsIN" style="width:12px;height:12px"></div>
+            </div>
+            <div class="item" data-brush-size="14" title="14 Pixel">
+                <div class="lineWidthsIN" style="width:14px;height:14px"></div>
+            </div>
+        </div>
+    </div>
+    <div class="toolbox right">
+        <div class="group switches">
+            <div id="ffffff color" class="item" data-color="#ffffff">
+                <div class="switch" style="background-color: #ffffff;"></div>
+            </div>
+            <div id="000000 color" class="item active" data-color="#000000">
+                <div class="switch" style="background-color: #000000;"></div>
+        </div>
+            <div id="ff371a color" class="item" data-color="#ff371a">
+                <div class="switch" style="background-color: #ff371a;"></div>
+            </div>
+            <div id="69ff3a color" class="item" data-color="#69ff3a">
+                <div class="switch" style="background-color: #69ff3a;"></div>
+            </div>
+            <div id="416dff color" class="item" data-color="#416dff">
+                <div class="switch" style="background-color: #416dff;"></div>
+            </div>
+            <div id="fffb5a color" class="item" data-color="#fffb5a">
+                <div class="switch" style="background-color: #fffb5a;"></div>
+            </div>
+            <div id="106586 color" class="item" data-color="#106586">
+                <div class="switch" style="background-color: #106586;"></div>
+            </div>
+            <div id="ecc8ff color" class="item" data-color="#ecc8ff">
+                <div class="switch" style="background-color: #ecc8ff;"></div>
+            </div>
+            <div id="8965ff color" class="item" data-color="#8965ff">
+                <div class="switch" style="background-color: #8965ff;"></div>
+            </div>
+            <div id="ff6557 color" class="item" data-color="#ff6557">
+                <div class="switch" style="background-color: #ff6557;"></div>
+            </div>
+            <div id="ff7100 color" class="item" data-color="#f1ffc5">
+                <div class="switch" style="background-color: #ff7100;"></div>
+            </div>
+            <div id="5cb8ff color" class="item" data-color="#5cb8ff">
+                <div class="switch" style="background-color: #5cb8ff;"></div>
+            </div>
+            <div id="fff6f6 color" class="item" data-color="#fff6f6">
+                <div class="switch" style="background-color: #fff6f6;"></div>
+            </div>
+            <div id="ffb457 color" class="item" data-color="#ffb457">
+                <div class="switch" style="background-color: #ffb457;"></div>
+            </div>
+            <div id="0b74ff color" class="item" data-color="#0b74ff">
+                <div class="switch" style="background-color: #0b74ff;"></div>
+            </div>
+        </div>
+    </div>
+    <canvas id="canvas" class="canvas" width="640" height="640"></canvas>
+</body>
+</html>

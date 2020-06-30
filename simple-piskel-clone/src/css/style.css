@@ -1,0 +1,92 @@
+body {
+  margin: 0px;
+  background-color: #283333;
+}
+
+.sizeCanvas {
+  text-align: center;
+  width: 770px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.sizeOption {
+
+  line-height: 70px;
+  font-size: 40px;
+  background: #2d4880;
+  color: white;
+  width: 180px;
+  margin-right: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sizeCanvas :last-child {
+  margin-right: 0px;
+}
+
+.toolbox {
+  height: 100vh;
+  position: absolute;
+  background-color: #3a4b4b;
+  width: 100px;
+}
+
+.group {
+  border-bottom: thin solid gray;
+}
+
+.item {
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.item:hover, .active {
+  background-color: #4b6161;
+}
+
+.item img {
+  width: 100%;
+}
+
+.lineWidthsIN {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.toolbox.left {
+  left: 0px;
+  top: 0px;
+  width: 45px;
+}
+
+.toolbox.right {
+  right: 0px;
+  top: 0px;
+  width: 45px;
+}
+
+.switch {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+}
+
+canvas {
+  width: 640px;
+  height: 640px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
